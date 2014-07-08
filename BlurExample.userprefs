@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.235bb04b" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BlurExample/MainActivity.cs">
+    <Files>
+      <File FileName="BlurExample/MainActivity.cs" Line="124" Column="3" />
+      <File FileName="BlurExample/Properties/AndroidManifest.xml" Line="6" Column="12" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.BlurExample MonoForAntroid.PreferredDevice="3.7&quot; WVGA (Nexus One)" AndroidDeviceId-Debug="00191bb73c079e" />
+</Properties>
