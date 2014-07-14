@@ -50,26 +50,29 @@ namespace BlurExample
 			// aapt resource value: 0x7f040004
 			public const int blue = 2130968580;
 			
-			// aapt resource value: 0x7f04000c
-			public const int dialog_selected_top_bottom = 2130968588;
+			// aapt resource value: 0x7f04000d
+			public const int dialog_selected_top_bottom = 2130968589;
 			
-			// aapt resource value: 0x7f04000b
-			public const int dialog_selected_top_top = 2130968587;
+			// aapt resource value: 0x7f04000c
+			public const int dialog_selected_top_top = 2130968588;
+			
+			// aapt resource value: 0x7f04000f
+			public const int dialog_unselected_top_bottom = 2130968591;
 			
 			// aapt resource value: 0x7f04000e
-			public const int dialog_unselected_top_bottom = 2130968590;
-			
-			// aapt resource value: 0x7f04000d
-			public const int dialog_unselected_top_top = 2130968589;
-			
-			// aapt resource value: 0x7f040013
-			public const int general_store_product_background = 2130968595;
+			public const int dialog_unselected_top_top = 2130968590;
 			
 			// aapt resource value: 0x7f040014
-			public const int general_store_product_item_background = 2130968596;
+			public const int general_store_product_background = 2130968596;
+			
+			// aapt resource value: 0x7f040015
+			public const int general_store_product_item_background = 2130968597;
 			
 			// aapt resource value: 0x7f040005
 			public const int grey = 2130968581;
+			
+			// aapt resource value: 0x7f040007
+			public const int grey_light = 2130968583;
 			
 			// aapt resource value: 0x7f040006
 			public const int grey_white = 2130968582;
@@ -77,29 +80,29 @@ namespace BlurExample
 			// aapt resource value: 0x7f040003
 			public const int link_blue = 2130968579;
 			
-			// aapt resource value: 0x7f040007
-			public const int product_sheet_dialog_background = 2130968583;
-			
 			// aapt resource value: 0x7f040008
-			public const int product_sheet_dialog_line = 2130968584;
-			
-			// aapt resource value: 0x7f04000a
-			public const int product_sheet_dialog_suite = 2130968586;
+			public const int product_sheet_dialog_background = 2130968584;
 			
 			// aapt resource value: 0x7f040009
-			public const int product_sheet_dialog_summary_background = 2130968585;
+			public const int product_sheet_dialog_line = 2130968585;
 			
-			// aapt resource value: 0x7f040010
-			public const int search_dialog_section_bottom = 2130968592;
+			// aapt resource value: 0x7f04000b
+			public const int product_sheet_dialog_suite = 2130968587;
 			
-			// aapt resource value: 0x7f04000f
-			public const int search_dialog_section_top = 2130968591;
+			// aapt resource value: 0x7f04000a
+			public const int product_sheet_dialog_summary_background = 2130968586;
 			
 			// aapt resource value: 0x7f040011
-			public const int settings_dialog_background = 2130968593;
+			public const int search_dialog_section_bottom = 2130968593;
+			
+			// aapt resource value: 0x7f040010
+			public const int search_dialog_section_top = 2130968592;
 			
 			// aapt resource value: 0x7f040012
-			public const int settings_text = 2130968594;
+			public const int settings_dialog_background = 2130968594;
+			
+			// aapt resource value: 0x7f040013
+			public const int settings_text = 2130968595;
 			
 			// aapt resource value: 0x7f040000
 			public const int transparent = 2130968576;

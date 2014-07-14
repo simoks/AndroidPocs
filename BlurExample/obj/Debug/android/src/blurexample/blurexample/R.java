@@ -13,29 +13,30 @@ public final class R {
     public static final class color {
         public static final int black=0x7f040002;
         public static final int blue=0x7f040004;
-        public static final int dialog_selected_top_bottom=0x7f04000c;
+        public static final int dialog_selected_top_bottom=0x7f04000d;
         /**  dialogs 
          */
-        public static final int dialog_selected_top_top=0x7f04000b;
-        public static final int dialog_unselected_top_bottom=0x7f04000e;
-        public static final int dialog_unselected_top_top=0x7f04000d;
-        public static final int general_store_product_background=0x7f040013;
-        public static final int general_store_product_item_background=0x7f040014;
+        public static final int dialog_selected_top_top=0x7f04000c;
+        public static final int dialog_unselected_top_bottom=0x7f04000f;
+        public static final int dialog_unselected_top_top=0x7f04000e;
+        public static final int general_store_product_background=0x7f040014;
+        public static final int general_store_product_item_background=0x7f040015;
         public static final int grey=0x7f040005;
+        public static final int grey_light=0x7f040007;
         public static final int grey_white=0x7f040006;
         public static final int link_blue=0x7f040003;
-        public static final int product_sheet_dialog_background=0x7f040007;
-        public static final int product_sheet_dialog_line=0x7f040008;
-        public static final int product_sheet_dialog_suite=0x7f04000a;
-        public static final int product_sheet_dialog_summary_background=0x7f040009;
-        public static final int search_dialog_section_bottom=0x7f040010;
+        public static final int product_sheet_dialog_background=0x7f040008;
+        public static final int product_sheet_dialog_line=0x7f040009;
+        public static final int product_sheet_dialog_suite=0x7f04000b;
+        public static final int product_sheet_dialog_summary_background=0x7f04000a;
+        public static final int search_dialog_section_bottom=0x7f040011;
         /**  search dialog 
          */
-        public static final int search_dialog_section_top=0x7f04000f;
+        public static final int search_dialog_section_top=0x7f040010;
         /**  settings dialog 
          */
-        public static final int settings_dialog_background=0x7f040011;
-        public static final int settings_text=0x7f040012;
+        public static final int settings_dialog_background=0x7f040012;
+        public static final int settings_text=0x7f040013;
         public static final int transparent=0x7f040000;
         public static final int white=0x7f040001;
     }

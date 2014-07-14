@@ -1,0 +1,2 @@
+/Users/kouissimohamed/Documents/test/AndroidPocs/BlurExample/bin/Release/BlurExample.dll
+/Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/mscorlib.dll

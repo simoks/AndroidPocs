@@ -1,14 +1,15 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.235bb04b" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.0146B50302011010" />
   <MonoDevelop.Ide.Workbench ActiveDocument="BlurExample/MainActivity.cs">
     <Files>
-      <File FileName="BlurExample/MainActivity.cs" Line="124" Column="3" />
-      <File FileName="BlurExample/Properties/AndroidManifest.xml" Line="6" Column="12" />
+      <File FileName="BlurExample/MainActivity.cs" Line="192" Column="4" />
+      <File FileName="BlurExample/IssueAdapter.cs" Line="1" Column="1" />
+      <File FileName="BlurExample/Resources/values/colors.axml" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.BlurExample MonoForAntroid.PreferredDevice="3.7&quot; WVGA (Nexus One)" AndroidDeviceId-Debug="00191bb73c079e" />
+  <MonoDevelop.Ide.ItemProperties.BlurExample MonoForAntroid.PreferredDevice="3.7&quot; WVGA (Nexus One)" AndroidDeviceId-Debug="0146B50302011010" AndroidDeviceId-Release="0146B50302011010" />
 </Properties>

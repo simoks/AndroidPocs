@@ -1,1 +1,1 @@
-/Users/kouissimohamed/Projects/BlurExample/BlurExample/bin/Debug/BlurExample.dll
+/Users/kouissimohamed/Documents/test/AndroidPocs/BlurExample/bin/Debug/BlurExample.dll

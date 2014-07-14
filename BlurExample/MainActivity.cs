@@ -95,19 +95,16 @@ namespace BlurExample
 			      
 			};
 
-			//this.m_DrawerToggle.DrawerSlide += (v,slideOffset) =>
-			//{
-				//mBlurImage.SetImageBitmap(null);
-				//mBlurImage.Visibility = ViewStates.Visible;
-				//Log.Info ("slide","offset :"+slideOffset.SlideOffset);
-				//if (slideOffset.SlideOffset > 0.0f) {
-					//DisplayBlurredImage(slideOffset.SlideOffset);
-				//}
-				//else {
-					//ClearBlurImage();
-				//}
+			this.m_DrawerToggle.DrawerSlide += (v,slideOffset) =>
+			{
+				if (slideOffset.SlideOffset > 0.0f) {
+					setBlurAlpha(slideOffset.SlideOffset);
+				}
+				else {
+					ClearBlurImage();
+				}
 
-			//};
+			};
 
 			//Display the current fragments title and update the options menu
 			this.m_DrawerToggle.DrawerClosed += (o, args) => 
@@ -124,11 +121,13 @@ namespace BlurExample
 			//Display the drawer title and update the options menu
 			this.m_DrawerToggle.DrawerOpened += (o, args) => 
 			{
-				mBlurImage.SetImageBitmap(null);
-				mBlurImage.Visibility = ViewStates.Visible;
+				//mBlurImage.SetImageBitmap(null);
+				//mBlurImage.Visibility = ViewStates.Visible;
 				//mBlurImage.SetAlpha(80);
 
-				DisplayBlurredImage (10);
+				//DisplayBlurredImage (10);
+
+				setBlurAlpha(1);
 
 				this.ActionBar.Title = this.m_DrawerTitle;
 
@@ -149,7 +148,7 @@ namespace BlurExample
 			this.ActionBar.SetDisplayHomeAsUpEnabled(true);
 			this.ActionBar.SetHomeButtonEnabled(true);
 
-			m_Drawer.SetScrimColor(Resource.Color.product_sheet_dialog_background);
+			m_Drawer.SetScrimColor(Resource.Color.grey_white);
 }
 
 		private void ListItemClicked(int position)
@@ -213,24 +212,12 @@ namespace BlurExample
 
 			return bm;
 		}
-
-		private void BlurImageHandler (object sender, SeekBar.StopTrackingTouchEventArgs e)
-		{
-			int radius = e.SeekBar.Progress;
-			if (radius == 0) {
-				// We don't want to blur, so just load the un-altered image.
-				//mBlurImage.SetImageResource (Resource.Drawable.capitale);
-				this.ClearBlurImage ();
-			} else {
-				Log.Info ("seekbar","radius :"+radius);
-				DisplayBlurredImage (radius);
-			}
-		}
-
+			
 		private void DisplayBlurredImage (float radius)
 		{
-			//_seekbar.StopTrackingTouch -= BlurImageHandler;
-			//_seekbar.Enabled = false;
+
+			mBlurImage.SetImageBitmap(null);
+			mBlurImage.Visibility = ViewStates.Visible;
 
 			//ShowIndeterminateProgressDialog ();
 	Task.Factory.StartNew (() => {
@@ -250,7 +237,7 @@ namespace BlurExample
 		private Bitmap CreateBlurredImage (float radius)
 		{
 			// Load a clean bitmap and work from that.
-			Bitmap originalBitmap = MainFrameLayout (); //BitmapFactory.DecodeResource (Resources, Resource.Drawable.capitale);
+			Bitmap originalBitmap = MainFrameLayout (); 
 
 			int width = (int)Math.Round (originalBitmap.Width * 0.4f);
 			int height = (int)Math.Round (originalBitmap.Height * 0.4f);
@@ -291,6 +278,17 @@ namespace BlurExample
 
 			mBlurImage.Visibility = ViewStates.Gone;
 			mBlurImage.SetImageBitmap(null);
+		}
+
+		private void setBlurAlpha(float slideOffset) {
+
+			mBlurImage.Alpha = slideOffset;
+			if (mBlurImage.Visibility != ViewStates.Visible) {
+
+				DisplayBlurredImage(7);
+			}
+
+
 		}
 	}
 }
